@@ -17,7 +17,7 @@ export function Header() {
               <time dateTime="2022-04-06">06 of April, 2022</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>Los Angeles, CA</p>
+            <p>Denver, CO</p>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
