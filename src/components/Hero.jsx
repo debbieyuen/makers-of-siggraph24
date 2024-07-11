@@ -9,20 +9,17 @@ export function Hero() {
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-7xl">
-            <span className="sr-only">DeceptiConf - </span>A design conference
-            for the dark side.
+            <span className="sr-only">DeceptiConf - </span>Experimenting With Artificial Intelligence:
+          </h1>
+          <h1 className="font-display text-5xl font-bold tracking-tighter text-blue-600 sm:text-5xl">
+            <span className="sr-only">DeceptiConf - </span>Programming Pathfinding Algorithms in C++ With Unreal Engine 5
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
-              The next generation of web users are tech-savvy and suspicious.
-              They know how to use dev tools, they can detect a phishing scam
-              from a mile away, and they certainly aren’t accepting any checks
-              from Western Union.
+            This hands-on lab session focuses on sharing the art and value of decision-making systems and pathfinding algorithms for machine learning applications. Understanding theoretical frameworks and heuristic strategies is necessary to build a foundational understanding of AI for research, games, and beyond. Through game development, we experience a snippet of AI by visualizing pathfinding algorithms, an entry point to exploring any AI domain.
             </p>
             <p>
-              At DeceptiConf you’ll learn about the latest dark patterns being
-              developed to trick even the smartest visitors, and you’ll learn
-              how to deploy them without ever being detected.
+            Together, we visualize the applications and influence of real-time pathfinding through programmatically modeling with Metahumans in Unreal Engine 5 (UE5). This comes together as an open-world game compatible with their preferred platform including WebGL, iOS/Android, and VR headsets. Personal hardware is not required for participation but is recommended for playtesting. 
             </p>
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
@@ -30,10 +27,9 @@ export function Hero() {
           </Button>
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
-              ['Speakers', '18'],
-              ['People Attending', '2,091'],
-              ['Venue', 'Staples Center'],
-              ['Location', 'Los Angeles'],
+              ['Date', 'Tuesday, July 30th'],
+              ['Time', '1:30-2:30P MDT'],
+              ['Location', 'Exhibit Hall F'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-blue-600">{name}</dt>
