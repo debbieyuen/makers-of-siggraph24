@@ -16,10 +16,16 @@ export function Hero() {
           </h1>
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-blue-900">
             <p>
+              Welcome! This is <b><u><a href="https://www.linkedin.com/in/josefspjut/">Josef Spujt</a></u></b> and <b><u><a href="https://www.linkedin.com/in/deborahyuen/">Debbie Yuen</a></u></b>!
+            </p>
+            <p>
             This hands-on lab session focuses on sharing the art and value of decision-making systems and pathfinding algorithms for machine learning applications. Understanding theoretical frameworks and heuristic strategies is necessary to build a foundational understanding of AI for research, games, and beyond. Through game development, we experience a snippet of AI by visualizing pathfinding algorithms, an entry point to exploring any AI domain.
             </p>
             <p>
-            Together, we visualize the applications and influence of real-time pathfinding through programmatically modeling with Metahumans in Unreal Engine 5 (UE5). This comes together as an open-world game compatible with their preferred platform including WebGL, iOS/Android, and VR headsets. Personal hardware is not required for participation but is recommended for playtesting. 
+            Together, we visualize the applications and influence of real-time pathfinding through programmatically modeling in Unreal Engine 5 (UE5). This comes together as an open-world game compatible with their preferred platform including WebGL, iOS/Android, and VR headsets.
+            </p>
+            <p>
+              Please visit our <b><u><a href="https://github.com/debbieyuen/tag-youre-it">GitHub repository</a></u></b> for a complete sample of the project and the 3D model of Pixel on the <b><u><a href="https://s2020.siggraph.org/3d-model-portal/">SIGGRAPH webpage</a></u></b>.
             </p>
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
@@ -30,6 +36,7 @@ export function Hero() {
               ['Date', 'Tuesday, July 30th'],
               ['Time', '1:30-2:30P MDT'],
               ['Location', 'Exhibit Hall F'],
+      
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-blue-600">{name}</dt>
